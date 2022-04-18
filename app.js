@@ -70,10 +70,10 @@ function daysInMonth(month) {
     if (month === 2) {
         return 29;
     }
-    if (month === 3) {
+    else if ((month === 3) || (month === 1) || (month === 5) || (month === 7) || (month === 8) || (month === 10) || (month === 12)) {
         return 31;
     }
-    if (month === 11) {
+    else {
         return 30;
     }
 }
